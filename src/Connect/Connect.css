@@ -1,0 +1,161 @@
+.contact-info-container {
+    background-color: #000000;
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
+    text-align: left;
+}
+
+
+.contact-info-container h3 {
+    font-size: 1.8rem;
+    color: rgb(255, 253, 253);
+    margin-bottom: 30px;
+    border-bottom: 5px solid #00FFC4;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+.contact-item {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+ .contact-item .icon {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+ .contact-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.social-icon:hover {
+    background-color: #00FFC4;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon .icon {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+
+    #contact {
+        width: 100%;
+        min-height: 20vh;
+        max-height: 35vh;
+    }
+
+    .contact-content {
+
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+
+    .contact-info-container {
+        padding: 30px;
+        width: 100%;
+        min-height: 25vh;
+        max-height: 35vh;
+    }
+
+
+
+    .contact-info-container h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #00FFC4;
+        width: 90%;
+        margin-left: 20px;
+        align-self: center;
+        text-align: center;
+    }
+
+   
+
+    p.contact-item {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .social-icon{
+        font-size: 10px;
+    }
+
+    .social-links {
+    margin-top: 10px;
+    
+}
+
+}
+
+
+
+
+
