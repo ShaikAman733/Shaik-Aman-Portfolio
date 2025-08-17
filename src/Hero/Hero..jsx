@@ -1,7 +1,7 @@
 import ChangingText from './changingtext';
 import './Hero.css';
 import profile from '/assets/profile.jpg';
-import resume from '/assets/S.Aman Resume.pdf';
+import resume from '/assets/S.AmanResume.pdf';
 
 
 function Hero() {
